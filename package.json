@@ -1,9 +1,12 @@
 {
+  "homepage": "https://ikapurnama.github.io/frontend_massive/",
   "name": "sindoroarum",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -16,6 +19,7 @@
     "bootstrap": "^5.3.2",
     "bootstrap-icons": "^1.11.2",
     "date-fns": "^2.30.0",
+    "gh-pages": "^6.1.0",
     "react": "^18.2.0",
     "react-avatar-edit": "^1.2.0",
     "react-bootstrap": "^2.9.1",

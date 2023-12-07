@@ -60,7 +60,7 @@ const FooterComponent = () => {
                 <Link to="/artikel">
                   <p>Artikel</p>
                 </Link>
-                <Link to="/home">
+                <Link to="/about">
                   <p>Tentang kami</p>
                 </Link>
               </div>
