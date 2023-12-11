@@ -16,7 +16,7 @@ const AboutPages = () => {
         <NavbarstatisComponent/>
         <br></br>
         <Col >
-            <h1 style={{textAlign: "center", fontSize: "30px", fontWeight: "700", marginTop: "75px", color: "#1D312C" }}>
+            <h1 style={{textAlign: "center", fontSize: "30px", fontWeight: "700", marginTop: "80px", color: "#1D312C" }}>
             TENTANG <span className="fw-bold fs-2" style={{ color:"#FFA323"}}>SINDORO</span>
             </h1>
             <h2 style={{textAlign: "center", fontSize: "20px", fontWeight: "400", color: "#1E2221", marginBottom: "-8px"}}>
@@ -53,17 +53,17 @@ const AboutPages = () => {
             <img
             src={sejarahsindoroImage}
             alt="Sindoro"
-            style={{ width: "571px", height: "319px", borderRadius: "30px", marginLeft: "20px"}}/>
+            style={{ width: "571px", height: "80%", borderRadius: "30px", marginLeft: "20px"}}/>
             </Col>
           </Row>
           <br />
           <br />
           <Row className="text-center mt-4 mb-4 about-text">
-            <Col>
+            <Col >
             <img
             src={visimisisindoroImage}
             alt="Sindoro"
-            style={{ width: "571px", height: "319px", borderRadius: "30px", marginRight: "20px"}}/>
+            style={{ width: "571px", height: "80%", borderRadius: "30px", marginRight: "20px"}}/>
             </Col>
             <Col>
             <h1 className="mb-3 font-weight-bold" style={{ fontSize: "30px", color: 'rgba(29, 49, 44, 0.91)', fontStyle: 'normal', fontWeight: 700 }}>

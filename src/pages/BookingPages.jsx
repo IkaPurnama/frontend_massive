@@ -8,6 +8,7 @@ import { format } from 'date-fns';
 import idLocale from 'date-fns/locale/id';
 import { Link } from 'react-router-dom';
 import NavbarstatisComponent from "../components/fragments/NavbarstatisComponent";
+import { Container } from "react-bootstrap";
 
 const BookingPages = () => {
   const formatDate = (date) => {
@@ -17,18 +18,21 @@ const BookingPages = () => {
   return (
     <div>
       <NavbarstatisComponent/>
-      <div className=" booking-image-container w-100">
+      <div className=" booking-image-container  justify-content-center w-100">
         <img src={bgbooking} alt="Deskripsi gambar" className="booking-image"
         style={{
           backgroundSize:"cover",
           backgroundPosition:"center center",
           backgroundRepeat:"no-repeat",
-          width:"100%"
+          width:"100%",
+         
           }}/>
-        <div className="booking-content">
+          <div className=" d-flex container bg-danger justify-content-center w-100" style={{textAlign:"center"}}>
+        <div className="booking-content " >
           <h1 className="text1">Selamat Datang</h1>
           <h2 className="text2">Ayo Pesan Tiket Pendakianmu sekarang</h2>
           <h3 className="text3">Registrasi Jadi Lebih Mudah dan <span id="HematWaktu">#HematWaktu</span></h3>
+         
           <div className="custom-border">
             <div className="inner-border">
               <input
@@ -58,6 +62,7 @@ const BookingPages = () => {
               </div>
             </div>
           </div>
+        </div>
         </div>
       </div>
       <FooterComponent />

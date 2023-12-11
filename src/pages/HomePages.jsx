@@ -3,7 +3,6 @@ import Bgimage from "../assets/images/bghome.png";
 import React from "react";
 import FooterComponent from "../components/fragments/FooterComponent";
 import bgmap from "../assets/images/gambarhome/maphiking.png";
-import CarouselhomeComponent from "../components/fragments/CarouselhomeComponent";
 import imglogo from "../assets/images/gambarhome/logo.png";
 import imgfasilitas from "../assets/images/gambarhome/imgfasilitas.png";
 import imgmushola from "../assets/images/gambarhome/musholaa.png";

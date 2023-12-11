@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Modal, Button } from 'react-bootstrap';
 import "../../dist/css/booking.css";
 import bookingpopup from "../../assets/images/gambarBooking/bookingpopup.png";
+import { Link } from 'react-router-dom';
 
 const BookingPopup = ({ show, handleClose }) => {
   const [showSecondPopup, setShowSecondPopup] = useState(false);
@@ -54,9 +55,11 @@ const BookingPopup = ({ show, handleClose }) => {
             <p>Pendaftaran anda sedang kami proses</p>
             <p>Info lebih lanjut silahkan cek riwayat pendaftaran anda</p>
           </div>
+          <Link to="/riwayat2">
           <div className="custom-popup-riwayat-button">
             <span className="custom-popup-button-text">Lihat Riwayat</span>
           </div>
+          </Link>
           </Modal.Body>
         </Modal>
       )}

@@ -1,44 +1,127 @@
 {
-  "homepage": "https://ikapurnama.github.io/frontend_massive/",
+ 
   "name": "sindoroarum",
+ 
   "private": true,
+ 
   "version": "0.0.0",
+ 
   "type": "module",
+ 
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+ 
+   
+  "predeploy": "npm run build",
+ 
+   
+  "deploy": "gh-pages -d dist",
+ 
+   
+  "dev": "vite",
+ 
+   
+  "build": "vite build",
+ 
+   
+  "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+ 
+   
+  "preview": "vite preview"
+ 
   },
+ 
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.5.1",
-    "@fortawesome/free-solid-svg-icons": "^6.5.1",
-    "@fortawesome/react-fontawesome": "^0.2.0",
-    "bootstrap": "^5.3.2",
-    "bootstrap-icons": "^1.11.2",
-    "date-fns": "^2.30.0",
-    "gh-pages": "^6.1.0",
-    "react": "^18.2.0",
-    "react-avatar-edit": "^1.2.0",
-    "react-bootstrap": "^2.9.1",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.12.0",
-    "react-image-crop": "^10.1.8",
-    "react-router-dom": "^6.18.0",
-    "react-slick": "^0.29.0",
-    "slick-carousel": "^1.8.1",
-    "swiper": "^11.0.5"
+ 
+   
+  "@fortawesome/fontawesome-svg-core": "^6.5.1",
+ 
+   
+  "@fortawesome/free-solid-svg-icons": "^6.5.1",
+ 
+   
+  "@fortawesome/react-fontawesome": "^0.2.0",
+ 
+   
+  "axios": "^1.6.2",
+ 
+   
+  "bootstrap": "^5.3.2",
+ 
+   
+  "bootstrap-icons": "^1.11.2",
+ 
+   
+  "date-fns": "^2.30.0",
+ 
+   
+  "formik": "^2.4.5",
+ 
+   
+  "gh-pages": "^6.1.0",
+ 
+   
+  "helmet": "^7.1.0",
+ 
+   
+  "react": "^18.2.0",
+ 
+   
+  "react-avatar-edit": "^1.2.0",
+ 
+   
+  "react-bootstrap": "^2.9.1",
+ 
+   
+  "react-dom": "^18.2.0",
+ 
+   
+  "react-icons": "^4.12.0",
+ 
+   
+  "react-image-crop": "^10.1.8",
+ 
+   
+  "react-router-dom": "^6.18.0",
+ 
+   
+  "react-slick": "^0.29.0",
+ 
+   
+  "slick-carousel": "^1.8.1",
+ 
+   
+  "styled-components": "^6.1.1",
+ 
+   
+  "swiper": "^11.0.5"
+ 
   },
+ 
   "devDependencies": {
-    "@types/react": "^18.2.15",
-    "@types/react-dom": "^18.2.7",
-    "@vitejs/plugin-react": "^4.0.3",
-    "eslint": "^8.45.0",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.3",
-    "vite": "^4.4.5"
+ 
+   
+  "@types/react": "^18.2.15",
+ 
+   
+  "@types/react-dom": "^18.2.7",
+ 
+   
+  "@vitejs/plugin-react": "^4.0.3",
+ 
+   
+  "eslint": "^8.45.0",
+ 
+   
+  "eslint-plugin-react": "^7.32.2",
+ 
+   
+  "eslint-plugin-react-hooks": "^4.6.0",
+ 
+   
+  "eslint-plugin-react-refresh": "^0.4.3",
+ 
+   
+  "vite": "^4.4.5"
+ 
   }
 }

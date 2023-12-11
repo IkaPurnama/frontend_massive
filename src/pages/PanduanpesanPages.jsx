@@ -6,13 +6,15 @@ import FooterComponent from "../components/fragments/FooterComponent";
 import CarouselPanduan from "../components/fragments/CarouselPanduan";
 import "../dist/css/panduan.css";
 import NavbarstatisComponent from "../components/fragments/NavbarstatisComponent";
+import { Container } from "react-bootstrap";
 
 const PanduanpesanPages = () => {
   return (
     <>
-      <div className="Panduanpesan">
+      <div className="Panduanpesan" >
         <CarouselPanduan />
         <NavbarstatisComponent/>
+        
         <div
           className="content-container"
           style={{
@@ -23,24 +25,26 @@ const PanduanpesanPages = () => {
             marginTop: "0px",
             padding: "20px",
             boxSizing: "border-box",
-            backgroundColor: "#D4DBD9",
+            backgroundColor: "#1D312C",
           }}
         >
-          <h1
+          <Container className="w-80">
+          <h1 className="text-center"
             style={{
               color: "#FFA323",
               fontSize: "32px",
               marginBottom: "30px",
               marginTop: "30px",
-              paddingLeft: "500px",
+              // paddingLeft: "500px",
               fontWeight: "Bold",
+              alignItems:"center"
             }}
           >
-            BOOKING ONLINE
+            PANDUAN BOOKING ONLINE
           </h1>
           <ul
             style={{
-              color: "#1D312C",
+              color: "#FFFFFF",
               fontFamily: "Poppins",
               fontSize: "15px",
               paddingLeft: "40px",
@@ -100,8 +104,9 @@ const PanduanpesanPages = () => {
               apabila ada. Tekan tombol kirim apabila data sudah sesuai.{" "}
             </li>
           </ul>
-         
+          </Container>
         </div>
+        
         {/* <div
           className="d-flex justify-content-center align-items-center"
           style={{

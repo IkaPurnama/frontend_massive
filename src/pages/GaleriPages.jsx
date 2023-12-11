@@ -36,10 +36,11 @@ export default function GaleriPages() {
           <div className='carousel-overlay'>
           <NavbarstatisComponent/>
               <div className='text-center'>
-                <h1 className='tagline text-white fs-1 fw-bold'>GALERI GUNUNG SINDORO</h1>
+                <h1 className='tagline text-white fs-1 fw-bold'>GALERI GUNUNG <span style={{ color:"#FFA323"}}>SINDORO</span></h1>
                 <p className='text-white text-white mb-0'
                 style={{
                   fontSize: "20px",
+                 
                 }}
                 >Berbagai keindahan Gunung Sindoro ada disini</p>
                 <p className='text-white text-white'
@@ -65,9 +66,9 @@ export default function GaleriPages() {
           }}>
             Keindahan Ndoro Arum
           </h2>
-          {/* <div className="d-flex align-items-center justify-content-center mt-3">
+          <div className="d-flex align-items-center justify-content-center mt-3">
           <NavbarGaleri/>
-          </div> */}
+          </div>
         </div>
 
         <div className='min-vh-100 d-flex align-items-center'
